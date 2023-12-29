@@ -1,11 +1,16 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React from 'react';
+import LandingPage from '../pages/LandingPage';
 
 function App() {
 
   return (
     <>
-      <div className="">
-        Prediction Soft
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
