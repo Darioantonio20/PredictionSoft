@@ -3,7 +3,9 @@ function App() {
 
   return (
     <>
-    Prediction Soft
+      <div className="">
+        Prediction Soft
+      </div>
     </>
   )
 }
