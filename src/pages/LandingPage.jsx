@@ -3,6 +3,7 @@ import NavBar from '../components/atoms/NavBar';
 import SectionCards from '../components/molecules/SectionCards';
 import Carousel from '../components/atoms/Carrousel';
 import '../assets/style/LandingPage.css';
+import Footer from '../components/atoms/Footer';
 
 function LandingPage() {
     const [loading, setLoading] = useState(true);
@@ -26,6 +27,7 @@ function LandingPage() {
                     <NavBar />
                     <Carousel />
                     <SectionCards />
+                    <Footer/>
                 </>
             )}
         </>
