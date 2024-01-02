@@ -1,5 +1,6 @@
-import ImgTecnologia from "../../assets/img/imgSoftware.jpg";
-import ImgCarrousel from "../../assets/img/imgCarrousel2.png";
+import ImgCarrousel1 from "../../assets/img/imgCarrousel1.jpeg";
+import ImgCarrousel2 from "../../assets/img/imgCarrousel2.jpeg";
+import ImgCarrousel3 from "../../assets/img/imgCarrousel3.jpeg";
 
 function Carousel() {
     return ( 
@@ -12,24 +13,20 @@ function Carousel() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={ImgTecnologia} className="d-block w-100" alt="..."/>
+                        <img src={ImgCarrousel1} loading="lazy" className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>Súmate con nosotros</h5>
                     </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={ImgTecnologia} className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
+                        <img src={ImgCarrousel2} loading="lazy" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div className="carousel-item">
-                        <img src={ImgCarrousel} className="d-block w-100" alt="..."/>
+                        <img src={ImgCarrousel3} loading="lazy" className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        
+                        <h4>Contactanos</h4>
                     </div>
                     </div>
                 </div>
