@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import NavBar from '../components/atoms/NavBar';
-import SectionCards from '../components/molecules/SectionCards';
+
 import Carousel from '../components/atoms/Carrousel';
 import '../assets/style/LandingPage.css';
 import Footer from '../components/atoms/Footer';
+import Section2 from '../components/molecules/Section2';
 
 function LandingPage() {
     const [loading, setLoading] = useState(true);
@@ -24,9 +25,10 @@ function LandingPage() {
                 </div>
             ) : (
                 <>
-                    <NavBar />
-                    <Carousel />
-                    <SectionCards />
+                    <NavBar/>
+                    <Carousel/>
+                    <Section2/>
+                 
                     <Footer/>
                 </>
             )}
