@@ -2,7 +2,6 @@ import IconoLocation from "../../assets/img/iconoLocation.svg";
 import IconoPhone from "../../assets/img/iconoPhone.svg";
 import IconoLetter from "../../assets/img/iconoLetter.svg";
 import "../../assets/style/Section2.css";
-
 function ContactUs() {
     return ( 
         <>
@@ -41,27 +40,39 @@ function ContactUs() {
                             </div>
                         </div>
                     </div>
+
                     <div className="col-7">
-                        <div className="row">
+                        <div className="row mb-4">
                             <div className="col-6">
-                                <input className="estiloInput" type="text" placeholder="Tu nombre." />
+                                <div data-mdb-input-init className="form-outline">
+                                    <input type="text" id="form3Example1" className="form-control" placeholder="Tu nombre." />
+                                </div>
                             </div>
                             <div className="col-6">
-                                <input className="estiloInput" type="mail" placeholder="Email." />
+                                <div data-mdb-input-init className="form-outline">
+                                    <input type="text" id="form3Example2" className="form-control" placeholder="Email."/>
+                                </div>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row mb-4">
                             <div className="col-6">
-                                <input className="estiloInput" type="text" placeholder="Asunto." />
+                                <div data-mdb-input-init className="form-outline">
+                                    <input type="text" id="form3Example1" className="form-control" placeholder="Asunto." />
+                                </div>
                             </div>
                             <div className="col-6">
-                                <input className="estiloInput" type="mail" placeholder="Teléfono." />
+                                <div data-mdb-input-init className="form-outline">
+                                    <input type="text" id="form3Example2" className="form-control" placeholder="Teléfono."/>
+                                </div>
+                            </div>
+                            <div className="col-12 mt-4">
+                                <div data-mdb-input-init className="form-outline">
+                                    <textarea class="form-control" id="form3Example2" type="text"  rows="4" placeholder="Mensaje."></textarea>
+                                </div>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-12">
-                                <input className="estiloInput" type="text" placeholder="Mensaje." />
-                            </div>
+                        <div className="text-center">
+                            <button class="button text-bg-blue">Enviar</button>
                         </div>
                     </div>
                 </div>
