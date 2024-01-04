@@ -15,17 +15,17 @@ function Footer() {
                     <div className="row">
                         <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
                             <div>
-                                <img classNameName="img-fluid" alt="Logo" loading="lazy" src={ImganeLogoFooter}/>
+                                <img className="img-fluid" alt="Logo" loading="lazy" src={ImganeLogoFooter}/>
                             </div>
                             <ul className="list-unstyled mt-4 mb-0">
                                 <li>
-                                    <h5><img classNameName="img-fluid" loading="lazy" src={IconoPhone}/> 961 366 2079</h5>
+                                    <h5><img className="img-fluid" loading="lazy" src={IconoPhone}/> 961 366 2079</h5>
                                 </li>
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLetter}/> ventas@predictionsoft</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLetter}/> ventas@predictionsoft</p>
                                 </li>
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLocation}/> Calzada Zoomat 130. Col. Francisco <br/>y Madero. Tuxtla Gutiérrez. Chiapas.</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLocation}/> Calzada Zoomat 130. Col. Francisco <br/>y Madero. Tuxtla Gutiérrez. Chiapas.</p>
                                 </li>
                             </ul>
                         </div>
@@ -33,10 +33,10 @@ function Footer() {
                             <h3 className="text-uppercase mb-4">POLÍTICAS Y TÉRMINOS</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Términos y condiciones.</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Términos y condiciones.</p>
                                 </li>
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Aviso de privacidad.</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Aviso de privacidad.</p>
                                 </li>
                             </ul>
                         </div>
@@ -44,13 +44,13 @@ function Footer() {
                             <h3 className="text-uppercase mb-4">NUESTROS <br/> SERVICIOS</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Asesoría de sistemas.</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Asesoría de sistemas.</p>
                                 </li>
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Desarrollo de software.</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Desarrollo de software.</p>
                                 </li>
                                 <li>
-                                    <p><img classNameName="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Soporte técnico especializado.</p>
+                                    <p><img className="img-fluid" loading="lazy" src={IconoLogoPequeno}/> Soporte técnico especializado.</p>
                                 </li>
                             </ul>
                         </div>
@@ -58,10 +58,10 @@ function Footer() {
                             <h3 className="text-uppercase mb-4">NUESTRAS REDES SOCIALES</h3>
                             <ul className="list-unstyled">
                                 <li>
-                                    <p><img classNameName="img-fluid" alt="Incono Pequeño" loading="lazy" src={IconoLogoPequeno}/> Síguenos y forma parte de la comunidad Prediction.</p>
+                                    <p><img className="img-fluid" alt="Incono Pequeño" loading="lazy" src={IconoLogoPequeno}/> Síguenos y forma parte de la comunidad Prediction.</p>
                                 </li>
                                 <li className="mt-4">
-                                    <p><a href="https://www.facebook.com/Software.Prediction" target="_blank"><img classNameName="img-fluid" alt="Icono Facebook" loading="lazy" src={IconoFacebook}/></a><img classNameName="img-fluid" alt="Icono Tiktok" loading="lazy" src={IconoTiktok}/>predictionsoft</p>
+                                    <p><a href="https://www.facebook.com/Software.Prediction" target="_blank"><img className="img-fluid" alt="Icono Facebook" loading="lazy" src={IconoFacebook}/></a><img className="img-fluid" alt="Icono Tiktok" loading="lazy" src={IconoTiktok}/>predictionsoft</p>
                                 </li>
                             </ul>
                         </div>
