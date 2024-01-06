@@ -1,12 +1,12 @@
 import React from "react";
-import "../../assets/style/Card.css";
 import LogoPredictionSoft from "../../assets/img/logoPredictionSoft.svg";
+import "../../assets/style/Card.css";
 
 function PorQuePrediction() {
   return (
     <>
-      <div className="bg-info p-0 pt-2 pb-2">
-        <h1 className="text-center text-light">¿POR QUE ELEGIR PREDICTION?</h1>
+      <div className="bg-info p-0 pt-2 pb-2 mt-5 mb-5">
+        <h1 className="text-center text-light animate__animated animate__bounceInDown">¿POR QUE ELEGIR PREDICTION?</h1>
       </div>
       <div className="row mb-5 p-0 m-5">
         <div className="col-lg-4 col-md-6 col-sm-12 mb-3 mt-3 d-flex justify-content-center">

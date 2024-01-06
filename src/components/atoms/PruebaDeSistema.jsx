@@ -3,8 +3,8 @@ import "../../assets/style/PruebaDeSistema.css";
 function PruebaDeSistema() {
     return ( 
         <>
-            <div className="p-0 pt-2 pb-2 text-center colorFondoPruebaDeSistema">
-                <h1 className="colorTituloPruebaDeSistema">PRUEBA NUESTRO SISTEMA COMO PRUEBA DEMO</h1>
+            <div className="p-0 pt-2 pb-2 text-center mt-5 mb-5 colorFondoPruebaDeSistema">
+                <h1 className="colorTituloPruebaDeSistema animate__animated animate__bounceInDown">PRUEBA NUESTRO SISTEMA COMO PRUEBA DEMO</h1>
                 <h3 className="textoPruebaDeSistema">Ingrese su correo eléctronico si deseas recibir una demostración</h3>
                 <h3 className="textoPruebaDeSistema">TOTALMENTE GRATIS</h3>
                 <div className="row justify-content-center">

@@ -6,6 +6,7 @@ function NavBar() {
   return (
     <>
         <nav className="navbar navbar-expand-md navbar-light bg-light">
+            <div id="arriba" />
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img src={LogoPredictionSoft} className="img-fluid" loading="lazy" alt="Img Prediction Soft"/>

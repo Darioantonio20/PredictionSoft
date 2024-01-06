@@ -6,7 +6,7 @@ function Card() {
   return (
     <>
       <div className="text-center mt-5 mb-5 p-0">
-        <h1>CASOS DE ÉXITO</h1>
+        <h1 className="animate__animated animate__bounceInDown">CASOS DE ÉXITO</h1>
       </div>
       <div className="row mb-5">
         <div className="col-sm-6 mb-3 mb-sm-0 d-flex justify-content-center">

@@ -56,3 +56,12 @@
     line-height: 1.4;
   }
   
+  /* En tu archivo CSS */
+.img-fluid {
+  /* Estilos regulares para la imagen */
+  transition: transform 0.3s ease; /* Transición suave */
+}
+
+.img-fluid:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al 110% en hover */
+}
