@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import NavBar from '../components/atoms/NavBar';
 import Carousel from '../components/atoms/Carrousel';
 import Footer from '../components/atoms/Footer';
@@ -14,23 +15,48 @@ import ContactUs from '../components/atoms/ContactUs';
 import '../assets/style/LandingPage.css';
 
 function LandingPage() {
+    const [showScrollButton, setShowScrollButton] = useState(false);
 
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setShowScrollButton(true);
+            } else {
+                setShowScrollButton(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     return (
         <>
-            <NavBar/>
-            <Carousel/>
-            <CircleCard/>
-            <PorQuePrediction/>
-            <MomentoERP/>
-            <ImplementacionPrediction/>
-            <Nosotros/>
-            <Beneficios/>
-            <PruebaDeSistema/>
-            <VideoPrediction/>
-            <Card/>
-            <ContactUs/>
-            <Footer/>
+            <NavBar />
+            <Carousel />
+            <CircleCard />
+            <PorQuePrediction />
+            <MomentoERP />
+            <ImplementacionPrediction />
+            <Nosotros />
+            <Beneficios />
+            <PruebaDeSistema />
+            <VideoPrediction />
+            <Card />
+            <ContactUs />
+            <Footer />
+            {showScrollButton && (
+                <button className="scroll-button" onClick={scrollToTop}>
+                    /\
+                </button>
+            )}
         </>
     );
 }
