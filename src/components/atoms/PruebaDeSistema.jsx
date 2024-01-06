@@ -13,7 +13,9 @@ function PruebaDeSistema() {
                         <div data-mdb-input-init className="form-outline w-100 me-3">
                             <input type="text" id="form3Example2" className="form-control text-center mb-2"/>
                         </div>
-                        <button className="button text-bg-dark">Enviar</button>
+                        <div>
+                            <button className="button text-bg-dark">Enviar</button>
+                        </div>
                     </div>
                 </div>         
             </div>
