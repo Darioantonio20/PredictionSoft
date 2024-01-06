@@ -1,6 +1,7 @@
 function VideoPrediction() {
     return ( 
         <>
+            <div id="video"/>
             video prediction
         </>
      );

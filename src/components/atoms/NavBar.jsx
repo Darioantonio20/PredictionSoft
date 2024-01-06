@@ -20,19 +20,19 @@ function NavBar() {
                             <a className="nav-link" href="#">INICIO</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="#">NOSOTROS</a>
+                            <a className="nav-link" href="#nosotros">NOSOTROS</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="#">MÓDULOS ERP</a>
+                            <a className="nav-link" href="#video">MÓDULOS ERP</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="#">COTIZAR</a>
+                            <a className="nav-link" href="#cotizar">COTIZAR</a>
                         </li>
                         <li className="nav-item mx-2">
                             <a className="nav-link" href="#">PROMOCIONES</a>
                         </li>
                         <li className="nav-item mx-2">
-                            <a className="nav-link" href="#">CONTACTO</a>
+                            <a className="nav-link" href="#contacto">CONTACTO</a>
                         </li>
                     </ul>
                 </div>

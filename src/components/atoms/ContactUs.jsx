@@ -6,6 +6,7 @@ import "../../assets/style/Section2.css";
 function ContactUs() {
   return (
     <>
+    <div id="contacto"/>
       <div className="bg-info p-0 pt-2 pb-2 p-0">
         <h1 className="text-center text-light animate__animated animate__bounceInDown">INICIA TU COTIZACIÓN AQUÍ</h1>
         <h3 className="text-center text-light">
