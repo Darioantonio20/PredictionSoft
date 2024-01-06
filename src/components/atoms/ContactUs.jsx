@@ -1,9 +1,53 @@
+import React, { useState } from 'react';
 import IconoLocation from "../../assets/img/iconoLocation.svg";
 import IconoPhone from "../../assets/img/iconoPhone.svg";
 import IconoLetter from "../../assets/img/iconoLetter.svg";
 import "../../assets/style/Section2.css";
 
 function ContactUs() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    phone: '',
+    message: '',
+  });
+
+  const [formErrors, setFormErrors] = useState({
+    name: '',
+    email: '',
+    subject: '',
+    phone: '',
+    message: '',
+  });
+
+  const handleChange = (event) => {
+    const { name, value } = event.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    let isValid = true;
+    const newErrors = { ...formErrors };
+
+    for (const key in formData) {
+      if (formData[key] === '') {
+        isValid = false;
+        newErrors[key] = `Por favor ingresa tu ${key}.`;
+      } else {
+        newErrors[key] = '';
+      }
+    }
+
+    if (!isValid) {
+      setFormErrors(newErrors);
+    } else {
+      // Aquí puedes enviar los datos del formulario
+      console.log('Datos del formulario:', formData);
+      // Lógica de envío del formulario
+    }
+  };
   return (
     <>
     <div id="contacto"/>
@@ -46,41 +90,39 @@ function ContactUs() {
         </div>
         {/*Form section*/}
         <div className="col-12 col-md-6 m-3">
-          <div className="row mt-5 mb-4">
-            <div className="col-6">
-              <div data-mdb-input-init className="form-outline">
-                <input type="text" id="form3Example1" className="form-control" placeholder="Tu nombre."/>
+          <form className="row g-3" onSubmit={handleSubmit}>
+            <div className="row mt-5 mb-4">
+              <div className="col-6">
+                <input type="text" name="name" value={formData.name} onChange={handleChange} className={`form-control ${formErrors.name && 'is-invalid'}`} placeholder="Tu nombre." required/>
+                {formErrors.name && <div className="invalid-feedback">{formErrors.name}</div>}
+              </div>
+              <div className="col-6">
+                <input type="email" name="email" value={formData.email} onChange={handleChange} className={`form-control ${formErrors.email && 'is-invalid'}`} placeholder="Email." required/>
+                {formErrors.email && <div className="invalid-feedback">{formErrors.email}</div>}
               </div>
             </div>
-            <div className="col-6">
-              <div data-mdb-input-init className="form-outline">
-                <input type="text" id="form3Example2" className="form-control" placeholder="Email."/>
+            <div className="row mb-4">
+              <div className="col-6">
+                <input type="text" name="subject" value={formData.subject} onChange={handleChange} className={`form-control ${formErrors.subject && 'is-invalid'}`} placeholder="Asunto." required/>
+                {formErrors.subject && <div className="invalid-feedback">{formErrors.subject}</div>}
+              </div>
+              <div className="col-6">
+                <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className={`form-control ${formErrors.phone && 'is-invalid'}`} placeholder="Teléfono." required/>
+                {formErrors.phone && <div className="invalid-feedback">{formErrors.phone}</div>}
+              </div>
+              <div className="col-12 mt-4">
+                <textarea className={`form-control ${formErrors.message && 'is-invalid'}`} id="message" name="message" rows="4" value={formData.message} onChange={handleChange} placeholder="Mensaje." required></textarea>
+                {formErrors.message && <div className="invalid-feedback">{formErrors.message}</div>}
               </div>
             </div>
-          </div>
-          <div className="row mb-4">
-            <div className="col-6">
-              <div data-mdb-input-init className="form-outline">
-                <input type="text" id="form3Example1" className="form-control" placeholder="Asunto."/>
-              </div>
+            <div className="text-center">
+              <button type="submit" className="btn button text-bg-blue">
+                Enviar
+              </button>
             </div>
-            <div className="col-6">
-              <div data-mdb-input-init className="form-outline">
-                <input type="text" id="form3Example2" className="form-control" placeholder="Teléfono."/>
-              </div>
-            </div>
-            <div className="col-12 mt-4">
-              <div data-mdb-input-init className="form-outline">
-                <textarea className="form-control" id="form3Example2" type="text" rows="4" placeholder="Mensaje."></textarea>
-              </div>
-            </div>
-          </div>
-          
-          <div className="text-center">
-            <button className="button text-bg-blue">Enviar</button>
-          </div>
+          </form>
         </div>
-      </div>
+      </div>  
     </>
   );
 }
