@@ -6,7 +6,7 @@ function PorQuePrediction() {
   return (
     <>
       <div className="bg-info p-0 pt-2 pb-2 mt-5 mb-5">
-        <h1 className="text-center text-light animate__animated animate__bounceInDown">¿POR QUE ELEGIR PREDICTION?</h1>
+        <h1 className="text-center text-light animate__animated animate__bounceInDown">¿POR QUÉ ELEGIR PREDICTION SOFTWARE?</h1>
       </div>
       <div className="row mb-5 p-0 m-5">
         <div className="col-lg-4 col-md-6 col-sm-12 mb-3 mt-3 d-flex justify-content-center">
@@ -20,10 +20,10 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">COMPRAS E INVENTARIOS</p>
-              <p className="card__description">
-                Facilita la integración de tus procesos de: ventas, compras,
+              <p className="card__description"><br/><br/><br/>
+                Facilita la integración de tus procesos de ventas, compras,
                 inventarios, multialmacenes, cuentas por cobrar, cuentas por
-                pagar.
+                pagar en un ambiente multiusuario.
               </p>
             </div>
           </div>
@@ -38,10 +38,10 @@ function PorQuePrediction() {
               height={250}
             />
             <div className="card__content">
-              <p className="card__title">ESTABILIDAD</p>
-              <p className="card__description">
-                Se ha logrado crear un sistema en un 99% libre de errores de
-                programación interna. Confía en los mejoras.
+              <p className="card__title">ALTA DISPONIBILIDAD</p>
+              <p className="card__description"><br/><br/>
+                Operatividad continúa con nuestro sistema 24X7X365 al estar operando en la nube olvídate de tiempos improductivos por caídas de sistemas.
+                ALL Time Prediction SOFTware MR. Conecta desde MAC, Linux, Windows, Tablet Android, etc.                
               </p>
             </div>
           </div>
@@ -56,10 +56,9 @@ function PorQuePrediction() {
               height={250}
             />
             <div className="card__content">
-              <p className="card__title">CONSISTENCIA</p>
-              <p className="card__description">
-                Datos 100% transaccional. Tu información en base de datos de
-                ultima generación Firebird 3.0 Olvídate de perder información.
+              <p className="card__title">FÁCIL INTEGRACIÓN CON BI</p>
+              <p className="card__description"><br/><br/>
+               Conecta con potentes motores de Bussines Inteligence en tiempo real gracias a su respaldo en línea a base de datos propios de terceros proveedores de BI. Obtén el máximo beneficio de información en línea y confiable para toma de decisiones para gerentes/directores. 
               </p>
             </div>
           </div>
@@ -74,10 +73,9 @@ function PorQuePrediction() {
               height={250}
             />
             <div className="card__content">
-              <p className="card__title">FACTURACIÓN ELECTRONÓNICA 4.0</p>
-              <p className="card__description">
-                Facturazión electrónica respaldada por Sifei, un PAC autorizado
-                por el SAT.
+              <p className="card__title">FACTURACIÓN ELECTRÓNICA 4.0</p>
+              <p className="card__description"><br/><br/><br/>
+                Facturas, complementos de pago, notas de crédito, carta porte 3.0 todo en v4.0 timbrados con Sifei, un PAC autorizado por el SAT.
               </p>
             </div>
           </div>
@@ -92,10 +90,9 @@ function PorQuePrediction() {
               height={250}
             />
             <div className="card__content">
-              <p className="card__title">SISTEMA ONLINE</p>
-              <p className="card__description">
-                Obtén información VITAL en tiempo y forma para la toma de
-                decisiones en tu empresa.
+              <p className="card__title">ESTABILIDAD, CONSISTENCIA, TRANSACCIONAL, ESCALABLE</p>
+              <p className="card__description"><br/><br/>
+                Sistema super estable libre de errores de programación, no se pierden los datos gracias a nuestra base de datos de alta gama 100% transaccional y gratuita, escalable a futuros cambios que demande el entorno empresarial y tecnológico.
               </p>
             </div>
           </div>
@@ -110,10 +107,9 @@ function PorQuePrediction() {
               height={250}
             />
             <div className="card__content">
-              <p className="card__title">SEGURIDAD DE LA INFORMACIÓN</p>
-              <p className="card__description">
-                Respalda en línea cada una de tus transacciones que realices en
-                tu empresa, logrando la seguridad de tu información.
+              <p className="card__title">RESPALDO EN LÍNEA</p>
+              <p className="card__description"><br/>
+                Olvídate por hacer respaldos diarios/semanales/mensuales Prediction SOFTware MR respalda a una base de datos en paralelo a otra nube en tiempo real sin afectar tu performance de velocidad delegando como un proceso alterno ajeno al núcleo del sistema, puedes estar tranquilo el sistema lo hará por ti por cualquier contingencia tu información está en modo espejo.
               </p>
             </div>
           </div>
