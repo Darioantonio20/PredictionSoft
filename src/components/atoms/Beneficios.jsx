@@ -1,4 +1,4 @@
-import Img4Section2 from "../../assets/img/img4Section2.jpg";
+import Img4Section2 from "../../assets/img/imgHeroCircle.svg";
 
 function Beneficios() {
     return ( 
@@ -8,7 +8,7 @@ function Beneficios() {
             </div>
             <div className="container-fluid p-0">
                 <div className="row justify-content-center">
-                    <div className="col-md-12">
+                    <div className="col-md-12 d-flex justify-content-center align-items-center mt-3 mb-3">
                         <img src={Img4Section2} loading="lazy" className="img-fluid max-width-img" alt="Imagen 3 Section 2" />
                     </div>
                 </div>
