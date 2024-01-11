@@ -1,0 +1,136 @@
+.card {
+    position: relative;
+    width: 30rem;
+    height: 25rem;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 62.5rem;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align:justify;
+  }
+
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+  /* En tu archivo CSS */
+.img-fluid {
+  /* Estilos regulares para la imagen */
+  transition: transform 0.7s ease; /* Transición suave */
+}
+
+.img-fluid:hover {
+  transform: scale(1.02); /* Aumentar el tamaño al 110% en hover */
+}
+
+/* Card de tipo 2 */
+
+.cardCasosDeExitos {
+  width: 20rem;
+  height: 20rem;
+  perspective: 62.5rem;
+}
+
+.cardCasosDeExitos-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.cardCasosDeExitos:hover .cardCasosDeExitos-inner {
+  transform: rotateY(180deg);
+}
+
+.cardCasosDeExitos-front,
+.cardCasosDeExitos-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cardCasosDeExitos-front {
+  background-color: #244464;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #244464;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.cardCasosDeExitos-back {
+  background-color: #b1b1b1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #b1b1b1;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+
+.custom-carousel-icon {
+  color: rgb(56, 56, 56);
+  background-color: #333;
+  border-radius: 2rem;
+  /* Añade la transición para suavizar cambios en propiedades */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Añade estilos adicionales cuando el usuario pasa el ratón sobre el botón */
+.custom-carousel-icon:hover {
+  background-color: #292929;
+  /* Aplica una transformación al hacer hover */
+  transform: scale(1.1);
+}
