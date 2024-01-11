@@ -1,4 +1,4 @@
-import ImgNosotros from "../../assets/img/imgNosotros.png";
+import ImgNosotros from "../../assets/img/imgNosotros.jpg";
 
 function Nosotros() {
     return ( 
@@ -10,7 +10,7 @@ function Nosotros() {
             <div className="container-fluid p-0">
                 <div className="row justify-content-center">
                     <div className="col-md-12">
-                        <img src={ImgNosotros}  loading="lazy" className="img-fluid max-width-img" alt="Imagen Nosotros" />
+                        <img src={ImgNosotros}  loading="lazy" className="img-fluid" alt="Imagen Nosotros" />
                     </div>
                 </div>
             </div>

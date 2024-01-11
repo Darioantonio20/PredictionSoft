@@ -9,7 +9,7 @@ function MomentoERP() {
           <img
             src={ImgMomentoERP}
             loading="lazy"
-            className="img-fluid max-width-img imagencita"
+            className="img-fluid imagencita"
             alt="Imagen Nosotros"
           />
         </div>
