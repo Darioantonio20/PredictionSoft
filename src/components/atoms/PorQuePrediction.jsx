@@ -5,7 +5,7 @@ import "../../assets/style/Card.css";
 function PorQuePrediction() {
   return (
     <>
-      <div className="bg-info p-0 pt-2 pb-2 mt-5 mb-5">
+      <div className="bg-info p-0 pt-2 pb-2 mt-1 mb-5">
         <h1 className="text-center text-light animate__animated animate__bounceInDown">¿POR QUÉ ELEGIR PREDICTION SOFTWARE?</h1>
       </div>
       <div className="row mb-5 p-0 m-5">

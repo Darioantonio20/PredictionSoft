@@ -60,11 +60,11 @@
   /* En tu archivo CSS */
 .img-fluid {
   /* Estilos regulares para la imagen */
-  transition: transform 0.3s ease; /* Transición suave */
+  transition: transform 0.7s ease; /* Transición suave */
 }
 
 .img-fluid:hover {
-  transform: scale(1.1); /* Aumentar el tamaño al 110% en hover */
+  transform: scale(1.02); /* Aumentar el tamaño al 110% en hover */
 }
 
 /* Card de tipo 2 */
