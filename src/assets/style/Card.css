@@ -66,3 +66,71 @@
 .img-fluid:hover {
   transform: scale(1.1); /* Aumentar el tamaño al 110% en hover */
 }
+
+/* Card de tipo 2 */
+
+.cardCasosDeExitos {
+  width: 20rem;
+  height: 20rem;
+  perspective: 62.5rem;
+}
+
+.cardCasosDeExitos-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.cardCasosDeExitos:hover .cardCasosDeExitos-inner {
+  transform: rotateY(180deg);
+}
+
+.cardCasosDeExitos-front,
+.cardCasosDeExitos-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cardCasosDeExitos-front {
+  background-color: #244464;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #244464;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.cardCasosDeExitos-back {
+  background-color: #b1b1b1;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 10px solid #b1b1b1;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}
+
+
+.custom-carousel-icon {
+  color: rgb(56, 56, 56);
+  background-color: #333;
+  border-radius: 2rem;
+  /* Añade la transición para suavizar cambios en propiedades */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Añade estilos adicionales cuando el usuario pasa el ratón sobre el botón */
+.custom-carousel-icon:hover {
+  background-color: #292929;
+  /* Aplica una transformación al hacer hover */
+  transform: scale(1.1);
+}

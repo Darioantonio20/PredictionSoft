@@ -1,52 +1,131 @@
+import ImgMatrix from "../../assets/img/imgMatrix.png";
 import "../../assets/style/Card.css";
-import IconoHombre from "../../assets/img/iconoHombre.png";
-import iconoMujer from "../../assets/img/iconoMujer.png";
 
 function Card() {
   return (
     <>
       <div className="text-center mt-5 mb-5 p-0">
-        <h1 className="animate__animated animate__bounceInDown">CASOS DE ÉXITO</h1>
+        <h1 className="animate__animated animate__bounceInDown">
+          CASOS DE ÉXITO
+        </h1>
       </div>
-      <div className="row mb-5">
-        <div className="col-sm-6 mb-3 mb-sm-0 d-flex justify-content-center">
-          <div className="card text-center">
-            <img
-              src={IconoHombre}
-              className="img-fluid"
-              loading="lazy"
-              width={100}
-              height={100}
-            />
-            <div className="card__content">
-              <p className="card__title">MARCELO TORRES.</p>
-              <p className="card__description">
-                Prediction Soft es un sistema súper completo que me ha ayudado
-                en los procesos de mis ventas, es mi mejor aliado para
-                administrar mi negocio.
-              </p>
+      <div id="carouselExample" className="carousel slide">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <div className="row mb-5">
+              <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
+                <div className="cardCasosDeExitos text-center">
+                  <div className="cardCasosDeExitos">
+                    <div className="cardCasosDeExitos-inner">
+                      <div className="cardCasosDeExitos-front">
+                        <img src={ImgMatrix} className="img container-fluid"/>
+                      </div>
+                      <div className="cardCasosDeExitos-back">
+                        <p>Llanteras Matrix</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
+                <div className="cardCasosDeExitos">
+                  <div className="cardCasosDeExitos-inner">
+                    <div className="cardCasosDeExitos-front">
+                      <p>Front Side</p>
+                    </div>
+                    <div className="cardCasosDeExitos-back">
+                      <p>Back Side</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row mb-5">
+              <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
+                <div className="cardCasosDeExitos text-center">
+                  <div className="cardCasosDeExitos">
+                    <div className="cardCasosDeExitos-inner">
+                      <div className="cardCasosDeExitos-front">
+                        <p>Front Side</p>
+                      </div>
+                      <div className="cardCasosDeExitos-back">
+                        <p>Back Side</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
+                <div className="cardCasosDeExitos">
+                  <div className="cardCasosDeExitos-inner">
+                    <div className="cardCasosDeExitos-front">
+                      <p>Front Side</p>
+                    </div>
+                    <div className="cardCasosDeExitos-back">
+                      <p>Back Side</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="carousel-item">
+            <div className="row mb-5">
+              <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
+                <div className="cardCasosDeExitos text-center">
+                  <div className="cardCasosDeExitos">
+                    <div className="cardCasosDeExitos-inner">
+                      <div className="cardCasosDeExitos-front">
+                        <p>Front Side</p>
+                      </div>
+                      <div className="cardCasosDeExitos-back">
+                        <p>Back Side</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
+                <div className="cardCasosDeExitos">
+                  <div className="cardCasosDeExitos-inner">
+                    <div className="cardCasosDeExitos-front">
+                      <p>Front Side</p>
+                    </div>
+                    <div className="cardCasosDeExitos-back">
+                      <p>Back Side</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col-sm-6 d-flex justify-content-center">
-          <div className="card text-center">
-            <img
-              src={iconoMujer}
-              className="img-fluid"
-              loading="lazy"
-              width={100}
-              height={100}
-            />
-            <div className="card__content">
-              <p className="card__title">SUSANA SÁNCHEZ.</p>
-              <p className="card__description">
-                Tener un sistema en la nube siempre es un beneficio, es por eso
-                que recomiendo Prediction Soft ya que gracias a este sistema he
-                podido hacer mi negocio.
-              </p>
-            </div>
-          </div>
-        </div>
+        <button
+          className="custom-carousel-control carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span
+            className="custom-carousel-icon carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button
+          className="custom-carousel-control carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span
+            className="custom-carousel-icon carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden text-danger">Next</span>
+        </button>
       </div>
     </>
   );

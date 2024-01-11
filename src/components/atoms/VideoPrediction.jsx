@@ -6,8 +6,8 @@ function VideoPrediction() {
     const videoId = 'MFuQ7DhkTDM'; // ID del video de YouTube
   
     const opts = {
-      height: '400',
-      width: '800',
+      height: '100%', // Cambiado a porcentaje
+      width: '100%', // Cambiado a porcentaje
       playerVars: {
         autoplay: 0,
       },
