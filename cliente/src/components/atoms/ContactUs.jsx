@@ -30,7 +30,7 @@ function ContactUs() {
     event.preventDefault();
     let isValid = true;
     const newErrors = { ...formErrors };
-
+  
     for (const key in formData) {
       if (formData[key] === '') {
         isValid = false;
@@ -39,13 +39,31 @@ function ContactUs() {
         newErrors[key] = '';
       }
     }
-
+  
     if (!isValid) {
       setFormErrors(newErrors);
     } else {
       // Aquí puedes enviar los datos del formulario
       console.log('Datos del formulario:', formData);
       // Lógica de envío del formulario
+      fetch('http://localhost:8080/api/user', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          nombre: formData.name,
+          titulo: formData.subject,
+          telefono: formData.phone,
+          mensaje: formData.message,
+          email: formData.email,
+        }),
+      })
+      .then(response => response.json())
+      .then(data => console.log(data))
+      .catch((error) => {
+        console.error('Error:', error);
+      });
     }
   };
   return (
