@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import IconoLocation from "../../assets/img/iconoLocation.svg";
 import IconoPhone from "../../assets/img/iconoPhone.svg";
 import IconoLetter from "../../assets/img/iconoLetter.svg";
+import Swal from 'sweetalert2';
 import "../../assets/style/Section2.css";
 
 function ContactUs() {
@@ -42,10 +43,12 @@ function ContactUs() {
   
     if (!isValid) {
       setFormErrors(newErrors);
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Por favor llena todos los campos del formulario!',
+      });
     } else {
-      // Aquí puedes enviar los datos del formulario
-      console.log('Datos del formulario:', formData);
-      // Lógica de envío del formulario
       fetch('http://localhost:8080/api/user', {
         method: 'POST',
         headers: {
@@ -60,15 +63,43 @@ function ContactUs() {
         }),
       })
       .then(response => response.json())
-      .then(data => console.log(data))
+.then(data => {
+  Swal.fire(
+    '¡Datos verificados!',
+    'Tus datos han sido enviados.',
+    'success'
+  ).then(() => {
+    Swal.fire({
+      title: "¡Muy pronto nos comunicaremos contigo!",
+      showClass: {
+        popup: `
+          animate__animated
+          animate__fadeInUp
+          animate__faster
+        `
+      },
+      hideClass: {
+        popup: `
+          animate__animated
+          animate__fadeOutDown
+          animate__faster
+        `
+      }
+    });
+  });
+})
       .catch((error) => {
-        console.error('Error:', error);
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Hubo un error al enviar tus datos!',
+        });
       });
     }
   };
   return (
     <>
-    <div id="contacto"/>
+      <div id="contacto"/>
       <div className="bg-info p-0 pt-2 pb-2 p-0">
         <h1 className="text-center text-light animate__animated animate__bounceInDown">INICIA TU COTIZACIÓN AQUÍ</h1>
         <h3 className="text-center text-light">

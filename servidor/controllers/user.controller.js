@@ -32,21 +32,21 @@ const usuariosPost = (req, res) => {
 
     let mailOptions = {
         from: 'Kranzwide solutions',
-        to: 'antoniodario10@hotmail.com',  // TODO 
-        subject: 'Prueba de Nodemailer',
-        text: `Hemos recibido el siguiente mensaje de ${nombre}:\n\nAsunto: ${titulo}\n\n${mensaje}\n\nDatos de contacto:\n\nTelefono: ${telefono}\n\nEmail: ${email}`,
-        html: `Hemos recibido el siguiente mensaje de <b>${nombre}:</b>
+        to: 'ventas@predictionsoft.com.mx', 
+        subject: 'Mandar información al siguiente usuario',
+        text: `Hemos recibido el siguiente mensaje de: ${nombre}\n\nAsunto: ${titulo}\n\n${mensaje}\n\nDatos de contacto:\n\nTelefono: ${telefono}\n\nEmail: ${email}`,
+        html: `Él usuario: <b>${nombre}</b> solicita información sobre Kranzwide Consultive SA DE CV.<br>
+               <p>Se adjunta la siguiente información del solicitante para ponerse en contacto lo antes posible:</p>
                <p>
+               <b>Nombre: </b>${nombre}
+               <br>
                <b>Asunto: </b>${titulo}
                <br>
                <b>Mensaje: </b>${mensaje}	  
-               </p>
-               <p>
-               Datos de contacto:
                <br>
-               Telefono: ${telefono}
+               <b>Telefono: </b>${telefono}
                <br>
-               Email: ${email}
+               <b>Email: </b>${email}
                </p>`
     };
 

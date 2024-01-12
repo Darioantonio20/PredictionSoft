@@ -1,6 +1,21 @@
+import React from 'react';
+import Swal from 'sweetalert2';
 import "../../assets/style/PruebaDeSistema.css";
 
 function PruebaDeSistema() {
+    const handleClick = () => {
+        Swal.fire({
+            icon: 'info',
+            title: 'Por favor contáctanos',
+            text: 'Por favor llena el formulario de contacto en la parte inferior de la página.',
+        }).then(() => {
+            const contactoElement = document.getElementById('contacto');
+            if (contactoElement) {
+                contactoElement.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    };
+
     return ( 
         <>
             <div id="cotizar"/>
@@ -14,7 +29,7 @@ function PruebaDeSistema() {
                             <input type="text" id="form3Example2" className="form-control text-center mb-2"/>
                         </div>
                         <div>
-                            <button className="button text-bg-dark">Enviar</button>
+                            <button className="button text-bg-dark" onClick={handleClick}>Enviar</button>
                         </div>
                     </div>
                 </div>         
