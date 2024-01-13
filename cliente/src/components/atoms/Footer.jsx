@@ -75,7 +75,7 @@ function Footer() {
                 </div>
             </footer>
             <div className="text-center p-3 colorCopyRight">
-                © Copyright Prediction Todos los derechos reservados.
+                © Copyright Prediction Software Todos los derechos reservados.
             </div>
         </>
      );
