@@ -1,7 +1,7 @@
 /* The above code is a React component called ContactUs. It is a form that allows users to enter their
 contact information and send a message. The form includes fields for name, email, subject, phone,
 and message. */
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import IconoLocation from "../../assets/img/iconoLocation.svg";
 import IconoPhone from "../../assets/img/iconoPhone.svg";
 import IconoLetter from "../../assets/img/iconoLetter.svg";
@@ -9,6 +9,19 @@ import Swal from 'sweetalert2';
 import "../../assets/style/Section2.css";
 
 function ContactUs() {
+  
+  useEffect(() => {
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5fea4770df060f156a914ea6/1eqlie40g';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+    })();
+  }, []); // El array vacío significa que este efecto se ejecutará solo una vez, después de la primera renderización
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -52,7 +65,7 @@ function ContactUs() {
         text: 'Por favor llena todos los campos del formulario!',
       });
     } else {
-      fetch('http://localhost:8080/api/user', {
+      fetch('https://backendpredictionsoft-production.up.railway.app/api/user', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -100,8 +113,10 @@ function ContactUs() {
         });
     }
   };
+  
   return (
     <>
+    
       <div id="contacto" />
       <div className="bg-info p-0 pt-2 pb-2 p-0">
         <h1 className="text-center text-light animate__animated animate__bounceInDown">INICIA TU COTIZACIÓN AQUÍ</h1>

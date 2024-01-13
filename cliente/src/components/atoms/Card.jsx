@@ -23,14 +23,14 @@ function Card() {
           <div className="carousel-item active">
             <div className="row mb-5">
               <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
-                <div class="section_our_solution">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="our_solution_category">
-                        <div class="solution_cards_box">
-                          <div class="solution_card">
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
+                <div className="section_our_solution">
+                  <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                      <div className="our_solution_category">
+                        <div className="solution_cards_box">
+                          <div className="solution_card">
+                            <div className="hover_color_bubble"></div>
+                            <div className="so_top_icon">
                               <img
                                 src={ImgMatrix}
                                 width={40}
@@ -110,12 +110,12 @@ function Card() {
                                 </g>
                               </g>
                             </div>
-                            <div class="solu_title">
+                            <div className="solu_title">
                               <div>
                                 <b>Matrix</b> Pasión por tu Auto
                               </div>
                             </div>
-                            <div class="solu_description">
+                            <div className="solu_description">
                               <p>
                                 Empresa Líder en distribución de las mejores
                                 marcas en rines, llantas y accesorios
@@ -126,12 +126,12 @@ function Card() {
                                 próximas aperturas Oaxaca, Mérida y más partes
                                 del sureste mexicano.
                               </p>
-                              <div class="solu_title">
+                              <div className="solu_title">
                                 <div>
                                   <b>Sentir del cliente</b>
                                 </div>
                               </div>
-                              <div class="solu_description">
+                              <div className="solu_description">
                                 <p>
                                   Prediction SOFTware MR es una herramienta
                                   superpotente, rápido interactuando con apps de
@@ -146,7 +146,7 @@ function Card() {
                                 </p>
                               </div>
                               <center>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a
                                     href="https://www.facebook.com/matrixrinesyllantas"
                                     target="_blank"
@@ -164,14 +164,14 @@ function Card() {
                 </div>
               </div>
               <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
-                <div class="section_our_solution">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="our_solution_category">
-                        <div class="solution_cards_box">
-                          <div class="solution_card">
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
+                <div className="section_our_solution">
+                  <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                      <div className="our_solution_category">
+                        <div className="solution_cards_box">
+                          <div className="solution_card">
+                            <div className="hover_color_bubble"></div>
+                            <div className="so_top_icon">
                               <img
                                 src={ImgMultillantas}
                                 width={40}
@@ -251,12 +251,12 @@ function Card() {
                                 </g>
                               </g>
                             </div>
-                            <div class="solu_title">
+                            <div className="solu_title">
                               <div>
                                 <b>Multillantas de Chiapas</b>
                               </div>
                             </div>
-                            <div class="solu_description">
+                            <div className="solu_description">
                               <p>
                                 Empresa Líder en distribución de las mejores
                                 marcas en rines, llantas con más de 20 años de
@@ -265,12 +265,12 @@ function Card() {
                                 servicio en Tuxtla Gutiérrez, Independencia,
                                 Jaltenango, Pujiltic, Villaflores, Chiapas.
                               </p>
-                              <div class="solu_title">
+                              <div className="solu_title">
                                 <div>
                                   <b>Sentir del cliente</b>
                                 </div>
                               </div>
-                              <div class="solu_description">
+                              <div className="solu_description">
                                 <p>
                                   Prediction SOFTware MR ha ido desde nuestros
                                   inicios con la operación de la mano y es el
@@ -287,7 +287,7 @@ function Card() {
                                 </p>
                               </div>
                               <center>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a
                                     href="https://www.facebook.com/profile.php?id=100073402030459"
                                     target="_blank"
@@ -295,7 +295,7 @@ function Card() {
                                     <img src={IconoFacebook} />
                                   </a>
                                 </button>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a href="tel:+529616386603">
                                     <img
                                       width={35}
@@ -304,7 +304,7 @@ function Card() {
                                     />
                                   </a>
                                 </button>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a href="tel:+529616719164">
                                     <img
                                       width={35}
@@ -327,14 +327,14 @@ function Card() {
           <div className="carousel-item">
             <div className="row mb-5">
               <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
-                <div class="section_our_solution">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="our_solution_category">
-                        <div class="solution_cards_box">
-                          <div class="solution_card">
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
+                <div className="section_our_solution">
+                  <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                      <div className="our_solution_category">
+                        <div className="solution_cards_box">
+                          <div className="solution_card">
+                            <div className="hover_color_bubble"></div>
+                            <div className="so_top_icon">
                               <img
                                 src={ImgGRUPCH}
                                 width={40}
@@ -414,22 +414,22 @@ function Card() {
                                 </g>
                               </g>
                             </div>
-                            <div class="solu_title">
+                            <div className="solu_title">
                               <div>
                                 <b>GRUPCH</b>
                               </div>
                             </div>
-                            <div class="solu_description">
+                            <div className="solu_description">
                               <p>
                                 Empresa dedicada a la comercialización de hielo
                                 y agua purificada.
                               </p>
-                              <div class="solu_title">
+                              <div className="solu_title">
                                 <div>
                                   <b>Sentir del cliente</b>
                                 </div>
                               </div>
-                              <div class="solu_description">
+                              <div className="solu_description">
                                 <p>
                                   Un software con muchas bondades, intuitivos,
                                   no falla, no pierde datos, es transaccional y
@@ -441,7 +441,7 @@ function Card() {
                                 </p>
                               </div>
                               <center>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a href="tel:+529616153525">
                                     <img
                                       width={35}
@@ -460,14 +460,14 @@ function Card() {
                 </div>
               </div>
               <div className="col-sm-6 mb-6 mb-sm-0 d-flex justify-content-center">
-                <div class="section_our_solution">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="our_solution_category">
-                        <div class="solution_cards_box">
-                          <div class="solution_card">
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
+                <div className="section_our_solution">
+                  <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                      <div className="our_solution_category">
+                        <div className="solution_cards_box">
+                          <div className="solution_card">
+                            <div className="hover_color_bubble"></div>
+                            <div className="so_top_icon">
                               <img
                                 src={ImgMahindra}
                                 width={40}
@@ -547,26 +547,26 @@ function Card() {
                                 </g>
                               </g>
                             </div>
-                            <div class="solu_title">
+                            <div className="solu_title">
                               <div>
                                 <b>
                                   CJC SERVICIOS DISTRIBUIDOR TRACTORES MAHINDRA
                                 </b>
                               </div>
                             </div>
-                            <div class="solu_description">
+                            <div className="solu_description">
                               <p>
                                 Empresa especializada en el sector agrícola
                                 venta de tractores, implementos todo para el
                                 campo, refacciones de los mismos + servicio,
                                 contamos con la distribución de MAHINDRA.
                               </p>
-                              <div class="solu_title">
+                              <div className="solu_title">
                                 <div>
                                   <b>Sentir del cliente</b>
                                 </div>
                               </div>
-                              <div class="solu_description">
+                              <div className="solu_description">
                                 <p>
                                   Prediction SOFTware MR es un software
                                   escalable con un ERP desde 2013,
@@ -585,7 +585,7 @@ function Card() {
                                 </p>
                               </div>
                               <center>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a
                                     href="https://www.facebook.com/cjcagropartes"
                                     target="_blank"
@@ -593,7 +593,7 @@ function Card() {
                                     <img src={IconoFacebook} />
                                   </a>
                                 </button>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a href="tel:+529611020022">
                                     <img
                                       width={35}
@@ -616,14 +616,14 @@ function Card() {
           <div className="carousel-item">
             <div className="row mb-5">
               <div className="col-sm-12 mb-12 mb-sm-0 d-flex justify-content-center">
-                <div class="section_our_solution">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                      <div class="our_solution_category">
-                        <div class="solution_cards_box">
-                          <div class="solution_card">
-                            <div class="hover_color_bubble"></div>
-                            <div class="so_top_icon">
+                <div className="section_our_solution">
+                  <div className="row">
+                    <div className="col-lg-12 col-md-12 col-sm-12">
+                      <div className="our_solution_category">
+                        <div className="solution_cards_box">
+                          <div className="solution_card">
+                            <div className="hover_color_bubble"></div>
+                            <div className="so_top_icon">
                               <img
                                 src={ImgLightCenter}
                                 width={40}
@@ -703,12 +703,12 @@ function Card() {
                                 </g>
                               </g>
                             </div>
-                            <div class="solu_title">
+                            <div className="solu_title">
                               <div>
                                 <b>LIGHT CENTER CLÍNICAS</b>
                               </div>
                             </div>
-                            <div class="solu_description">
+                            <div className="solu_description">
                               <p>
                                 Prediction SOFTware MR es nuestro software en el
                                 cual el proveedor nos desarrolló nuestro módulo
@@ -724,12 +724,12 @@ function Card() {
                                 que el robot mediante WhatsApp les indica que
                                 pueden agendar nuevo bloque de citas.
                               </p>
-                              <div class="solu_title">
+                              <div className="solu_title">
                                 <div>
                                   <b>Sentir del cliente</b>
                                 </div>
                               </div>
-                              <div class="solu_description">
+                              <div className="solu_description">
                                 <p>
                                   Prediction SOFTware MR es nuestro software en
                                   el cual el proveedor nos desarrolló nuestro
@@ -748,7 +748,7 @@ function Card() {
                                 </p>
                               </div>
                               <center>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a href="tel:+529995514492">
                                     <img
                                       width={35}
@@ -757,7 +757,7 @@ function Card() {
                                     />
                                   </a>
                                 </button>
-                                <button class="read_more_btn" type="button">
+                                <button className="read_more_btn" type="button">
                                   <a
                                     href="https://www.facebook.com/lightcenter.merida"
                                     target="_blank"
