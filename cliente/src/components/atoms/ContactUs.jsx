@@ -1,3 +1,6 @@
+/* The above code is a React component called ContactUs. It is a form that allows users to enter their
+contact information and send a message. The form includes fields for name, email, subject, phone,
+and message. */
 import React, { useState } from 'react';
 import IconoLocation from "../../assets/img/iconoLocation.svg";
 import IconoPhone from "../../assets/img/iconoPhone.svg";
@@ -31,7 +34,7 @@ function ContactUs() {
     event.preventDefault();
     let isValid = true;
     const newErrors = { ...formErrors };
-  
+
     for (const key in formData) {
       if (formData[key] === '') {
         isValid = false;
@@ -40,7 +43,7 @@ function ContactUs() {
         newErrors[key] = '';
       }
     }
-  
+
     if (!isValid) {
       setFormErrors(newErrors);
       Swal.fire({
@@ -62,44 +65,44 @@ function ContactUs() {
           email: formData.email,
         }),
       })
-      .then(response => response.json())
-.then(data => {
-  Swal.fire(
-    '¡Datos verificados!',
-    'Tus datos han sido enviados.',
-    'success'
-  ).then(() => {
-    Swal.fire({
-      title: "¡Muy pronto nos comunicaremos contigo!",
-      showClass: {
-        popup: `
+        .then(response => response.json())
+        .then(data => {
+          Swal.fire(
+            '¡Datos verificados!',
+            'Tus datos han sido enviados.',
+            'success'
+          ).then(() => {
+            Swal.fire({
+              title: "¡Muy pronto nos comunicaremos contigo!",
+              showClass: {
+                popup: `
           animate__animated
           animate__fadeInUp
           animate__faster
         `
-      },
-      hideClass: {
-        popup: `
+              },
+              hideClass: {
+                popup: `
           animate__animated
           animate__fadeOutDown
           animate__faster
         `
-      }
-    });
-  });
-})
-      .catch((error) => {
-        Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Hubo un error al enviar tus datos!',
+              }
+            });
+          });
+        })
+        .catch((error) => {
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Hubo un error al enviar tus datos!',
+          });
         });
-      });
     }
   };
   return (
     <>
-      <div id="contacto"/>
+      <div id="contacto" />
       <div className="bg-info p-0 pt-2 pb-2 p-0">
         <h1 className="text-center text-light animate__animated animate__bounceInDown">INICIA TU COTIZACIÓN AQUÍ</h1>
         <h3 className="text-center text-light">
@@ -141,21 +144,21 @@ function ContactUs() {
           <form className="row g-3" onSubmit={handleSubmit}>
             <div className="row mt-5 mb-4">
               <div className="col-6">
-                <input type="text" name="name" value={formData.name} onChange={handleChange} className={`form-control ${formErrors.name && 'is-invalid'}`} placeholder="Tu nombre." required/>
+                <input type="text" name="name" value={formData.name} onChange={handleChange} className={`form-control ${formErrors.name && 'is-invalid'}`} placeholder="Tu nombre." required />
                 {formErrors.name && <div className="invalid-feedback">{formErrors.name}</div>}
               </div>
               <div className="col-6">
-                <input type="email" name="email" value={formData.email} onChange={handleChange} className={`form-control ${formErrors.email && 'is-invalid'}`} placeholder="Email." required/>
+                <input type="email" name="email" value={formData.email} onChange={handleChange} className={`form-control ${formErrors.email && 'is-invalid'}`} placeholder="Email." required />
                 {formErrors.email && <div className="invalid-feedback">{formErrors.email}</div>}
               </div>
             </div>
             <div className="row mb-4">
               <div className="col-6">
-                <input type="text" name="subject" value={formData.subject} onChange={handleChange} className={`form-control ${formErrors.subject && 'is-invalid'}`} placeholder="Asunto." required/>
+                <input type="text" name="subject" value={formData.subject} onChange={handleChange} className={`form-control ${formErrors.subject && 'is-invalid'}`} placeholder="Asunto." required />
                 {formErrors.subject && <div className="invalid-feedback">{formErrors.subject}</div>}
               </div>
               <div className="col-6">
-                <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className={`form-control ${formErrors.phone && 'is-invalid'}`} placeholder="Teléfono." required/>
+                <input type="tel" name="phone" value={formData.phone} onChange={handleChange} className={`form-control ${formErrors.phone && 'is-invalid'}`} placeholder="Teléfono." required />
                 {formErrors.phone && <div className="invalid-feedback">{formErrors.phone}</div>}
               </div>
               <div className="col-12 mt-4">
@@ -170,7 +173,7 @@ function ContactUs() {
             </div>
           </form>
         </div>
-      </div>  
+      </div>
     </>
   );
 }

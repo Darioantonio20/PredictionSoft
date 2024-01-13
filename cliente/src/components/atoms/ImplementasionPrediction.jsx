@@ -1,7 +1,11 @@
+/* The code is importing an image file named "img3Section2.jpeg" from the "../../assets/img/"
+directory. It then uses the imported image as the source for an `<img>` element within the
+`ImplementacionPrediction` component. The image is displayed with the `img-fluid` class, and the
+`alt` attribute is set to "Imagen 2 Section 2". */
 import Img3Section2 from "../../assets/img/img3Section2.jpeg";
 
 function ImplementacionPrediction() {
-    return ( 
+    return (
         <>
             <div className="container-fluid p-0">
                 <div className="row justify-content-center">
@@ -11,7 +15,7 @@ function ImplementacionPrediction() {
                 </div>
             </div>
         </>
-     );
+    );
 }
 
 export default ImplementacionPrediction;

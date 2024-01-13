@@ -1,9 +1,17 @@
+/**
+ * The above code is a React component that renders a navigation bar with links to different sections
+ * of a website.
+ */
 import React from 'react';
 import Swal from 'sweetalert2';
 import "../../assets/style/NavBar.css";
 import LogoPredictionSoft from "../../assets/img/logoPredictionSoft.svg";
 
 function NavBar() {
+    /**
+     * The handleClick function prevents the default behavior of an event and displays an info message
+     * using the Swal.fire method.
+     */
     const handleClick = (event) => {
         event.preventDefault();
         Swal.fire({
@@ -14,11 +22,12 @@ function NavBar() {
 
     return (
         <>
+            {/*The code you provided is a React component that renders a navigation bar.*/}
             <nav className="navbar navbar-expand-md navbar-light bg-light">
                 <div id="arriba" />
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">
-                        <img src={LogoPredictionSoft} className="img-fluid" loading="lazy" alt="Img Prediction Soft"/>
+                        <img src={LogoPredictionSoft} className="img-fluid" loading="lazy" alt="Img Prediction Soft" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

@@ -1,3 +1,5 @@
+/* The code is a React functional component called `LandingPage`. It imports various components from
+different files and renders them in the return statement. */
 import React, { useEffect, useState } from 'react';
 import NavBar from '../components/atoms/NavBar';
 import Carousel from '../components/atoms/Carrousel';
@@ -15,6 +17,9 @@ import ContactUs from '../components/atoms/ContactUs';
 import '../assets/style/LandingPage.css';
 
 function LandingPage() {
+    /* The code block is using React hooks to create a state variable `showScrollButton` and a function
+    `setShowScrollButton` to update its value. The initial value of `showScrollButton` is set to
+    `false`. */
     const [showScrollButton, setShowScrollButton] = useState(false);
 
     useEffect(() => {

@@ -1,46 +1,97 @@
+/**
+ * The Carousel component is a React component that displays a carousel of images with captions.
+ * @returns The Carousel component is being returned.
+ */
 import ImgCarrousel1 from "../../assets/img/imgCarrousel1.jpeg";
 import ImgCarrousel2 from "../../assets/img/imgCarrousel2.jpeg";
 import ImgCarrousel3 from "../../assets/img/imgCarrousel3.jpeg";
 
 function Carousel() {
-    return ( 
+    return (
         <>
             <div id="carouselExampleCaptions" className="carousel slide">
                 <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        className="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={ImgCarrousel1} loading="lazy" className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        <h5>Súmate con nosotros</h5>
-                    </div>
+                        <img
+                            src={ImgCarrousel1}
+                            loading="lazy"
+                            className="d-block w-100"
+                            alt="..."
+                        />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h5>Súmate con nosotros</h5>
+                        </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={ImgCarrousel2} loading="lazy" className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block"></div>
+                        <img
+                            src={ImgCarrousel2}
+                            loading="lazy"
+                            className="d-block w-100"
+                            alt="..."
+                        />
+                        <div className="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div className="carousel-item">
-                        <img src={ImgCarrousel3} loading="lazy" className="d-block w-100" alt="..."/>
-                    <div className="carousel-caption d-none d-md-block">
-                        
-                        <h4>Contactanos</h4>
-                    </div>
+                        <img
+                            src={ImgCarrousel3}
+                            loading="lazy"
+                            className="d-block w-100"
+                            alt="..."
+                        />
+                        <div className="carousel-caption d-none d-md-block">
+                            <h4>Contactanos</h4>
+                        </div>
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                >
+                    <span
+                        className="carousel-control-prev-icon"
+                        aria-hidden="true"
+                    ></span>
                     <span className="visually-hidden">Previous</span>
                 </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                >
+                    <span
+                        className="carousel-control-next-icon"
+                        aria-hidden="true"
+                    ></span>
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
         </>
-     );
+    );
 }
 
 export default Carousel;

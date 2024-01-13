@@ -1,3 +1,6 @@
+/* The code is defining a React functional component called `PorQuePrediction`. This component renders
+a set of cards that display information about the features and benefits of a software called
+"Prediction Software". */
 import React from "react";
 import LogoPredictionSoft from "../../assets/img/logoPredictionSoft.svg";
 import "../../assets/style/Card.css";
@@ -20,7 +23,7 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">COMPRAS E INVENTARIOS</p>
-              <p className="card__description"><br/><br/><br/>
+              <p className="card__description"><br /><br /><br />
                 Facilita la integración de tus procesos de ventas, compras,
                 inventarios, multialmacenes, cuentas por cobrar, cuentas por
                 pagar en un ambiente multiusuario.
@@ -39,9 +42,9 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">ALTA DISPONIBILIDAD</p>
-              <p className="card__description"><br/><br/>
+              <p className="card__description"><br /><br />
                 Operatividad continúa con nuestro sistema 24X7X365 al estar operando en la nube olvídate de tiempos improductivos por caídas de sistemas.
-                ALL Time Prediction SOFTware MR. Conecta desde MAC, Linux, Windows, Tablet Android, etc.                
+                ALL Time Prediction SOFTware MR. Conecta desde MAC, Linux, Windows, Tablet Android, etc.
               </p>
             </div>
           </div>
@@ -57,8 +60,8 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">FÁCIL INTEGRACIÓN CON BI</p>
-              <p className="card__description"><br/><br/>
-               Conecta con potentes motores de Bussines Inteligence en tiempo real gracias a su respaldo en línea a base de datos propios de terceros proveedores de BI. Obtén el máximo beneficio de información en línea y confiable para toma de decisiones para gerentes/directores. 
+              <p className="card__description"><br /><br />
+                Conecta con potentes motores de Bussines Inteligence en tiempo real gracias a su respaldo en línea a base de datos propios de terceros proveedores de BI. Obtén el máximo beneficio de información en línea y confiable para toma de decisiones para gerentes/directores.
               </p>
             </div>
           </div>
@@ -74,7 +77,7 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">FACTURACIÓN ELECTRÓNICA 4.0</p>
-              <p className="card__description"><br/><br/><br/>
+              <p className="card__description"><br /><br /><br />
                 Facturas, complementos de pago, notas de crédito, carta porte 3.0 todo en v4.0 timbrados con Sifei, un PAC autorizado por el SAT.
               </p>
             </div>
@@ -91,7 +94,7 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">ESTABILIDAD, CONSISTENCIA, TRANSACCIONAL, ESCALABLE</p>
-              <p className="card__description"><br/><br/>
+              <p className="card__description"><br /><br />
                 Sistema super estable libre de errores de programación, no se pierden los datos gracias a nuestra base de datos de alta gama 100% transaccional y gratuita, escalable a futuros cambios que demande el entorno empresarial y tecnológico.
               </p>
             </div>
@@ -108,7 +111,7 @@ function PorQuePrediction() {
             />
             <div className="card__content">
               <p className="card__title">RESPALDO EN LÍNEA</p>
-              <p className="card__description"><br/>
+              <p className="card__description"><br />
                 Olvídate por hacer respaldos diarios/semanales/mensuales Prediction SOFTware MR respalda a una base de datos en paralelo a otra nube en tiempo real sin afectar tu performance de velocidad delegando como un proceso alterno ajeno al núcleo del sistema, puedes estar tranquilo el sistema lo hará por ti por cualquier contingencia tu información está en modo espejo.
               </p>
             </div>

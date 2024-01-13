@@ -1,3 +1,4 @@
+/* This is a Server class in JavaScript that sets up an Express server with middleware and routes. */
 var cors = require('cors')
 const express = require('express');
 
@@ -6,7 +7,7 @@ class Server {
     constructor() {
         this.app = express();
         this.port = process.env.PORT;
-        this.usuariosPath='/api/user';
+        this.usuariosPath = '/api/user';
         //middlewares
         this.middlewares();
         //rutas
@@ -25,7 +26,7 @@ class Server {
 
     routes() {
 
-        this.app.use(this.usuariosPath, require ('../routes/user'))
+        this.app.use(this.usuariosPath, require('../routes/user'))
 
     }
 
