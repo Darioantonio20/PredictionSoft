@@ -4,6 +4,7 @@ a set of cards that display information about the features and benefits of a sof
 import React from "react";
 import LogoPredictionSoft from "../../assets/img/logoPredictionSoft.svg";
 import "../../assets/style/Card.css";
+import "../../assets/style/PorQuePredictionSoft.css";
 
 function PorQuePrediction() {
   return (

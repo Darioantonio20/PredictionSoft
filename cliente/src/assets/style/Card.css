@@ -258,3 +258,50 @@
     margin: 0 auto;
   }
 }
+
+.solution_card .solu_title div {
+  color: #212121;
+  font-size: 1.3rem; /* Tamaño de fuente para pantallas grandes */
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.solution_card .solu_description p {
+  font-size: 15px; /* Tamaño de fuente para pantallas grandes */
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Cuando la pantalla tiene 600px o menos (móvil) */
+@media (max-width: 37.5rem) {
+  .solution_card .solu_title div {
+    font-size: 1rem; /* Tamaño de fuente para pantallas pequeñas */
+  }
+
+  .solution_card .solu_description p {
+    font-size: 0.75em; /* Tamaño de fuente para pantallas pequeñas */
+  }
+}
+
+/* Cuando la pantalla tiene entre 600px y 900px (tablet) */
+@media (min-width: 35rem) and (max-width: 61.8rem) {
+  .solution_card .solu_title div {
+    font-size: 0.8em; /* Tamaño de fuente para tablet */
+  }
+
+  .solution_card .solu_description p {
+    font-size: 0.65rem; /* Tamaño de fuente para tablet */
+  }
+}
+
+/* Cuando la pantalla tiene más de 900px (desktop) */
+@media (min-width: 56.2512rem) and (max-width: 77.25rem){
+  .solution_card .solu_title div {
+    font-size: 1em; /* Tamaño de fuente para desktop */
+  }
+
+  .solution_card .solu_description p {
+    font-size: 0.8em; /* Tamaño de fuente para desktop */
+  }
+}
+
