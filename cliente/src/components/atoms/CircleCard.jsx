@@ -1,13 +1,12 @@
-/* The code you provided is a React component called `CircleCard`. */
+/* The code you provided is a React component called CircleCard. */
 import ImgSection2 from "../../assets/img/imgHeroPrediction.png";
-import "../../assets/style/CircleCard.css";
 
 function CircleCard() {
     return (
         <>
-            <div className="container-fluid">
+           <div className="container-fluid">
                 <div className="row justify-content-center">
-                    <div className="col-md-12 mt-1">
+                    <div className="col-md-12 mt-5 mb-5">
                         <img
                             src={ImgSection2}
                             loading="lazy"
@@ -21,4 +20,4 @@ function CircleCard() {
     );
 }
 
-export default CircleCard;
+export default CircleCard;
