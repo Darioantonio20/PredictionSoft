@@ -4,7 +4,7 @@
  * color of "info" and some padding and margin. Inside this `div`, there is an `h1` element with the
  * text "BENEFICIOS".
  */
-import Img4Section2 from "../../assets/img/imgHeroCircle.svg";
+import Img4Section2 from "../../assets/img/img4Section2.png";
 
 function Beneficios() {
     return (

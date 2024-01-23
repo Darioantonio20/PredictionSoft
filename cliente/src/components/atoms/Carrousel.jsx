@@ -3,7 +3,7 @@
  * @returns The Carousel component is being returned.
  */
 import ImgCarrousel1 from "../../assets/img/imgCarrousel1.jpeg";
-import ImgCarrousel2 from "../../assets/img/imgCarrousel2.jpeg";
+import ImgCarrousel2 from "../../assets/img/imgCarrousel2.png";
 import ImgCarrousel3 from "../../assets/img/imgCarrousel3.jpeg";
 
 function Carousel() {
