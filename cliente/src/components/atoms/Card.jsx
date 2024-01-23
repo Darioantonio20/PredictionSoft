@@ -117,32 +117,16 @@ function Card() {
                             </div>
                             <div className="solu_description">
                               <p>
-                                Empresa Líder en distribución de las mejores
-                                marcas en rines, llantas y accesorios
-                                automotrices teniendo su corporativo en Tuxtla
-                                Gutiérrez, Chiapas con más de 13 sucursales y
-                                más de 40 usuarios conectados a la nube operando
-                                el ERP, actualmente en expansión en Tabasco,
-                                próximas aperturas Oaxaca, Mérida y más partes
-                                del sureste mexicano.
+                                Empresa líder en distribución automotriz con sede en Tuxtla Gutiérrez, Chiapas. Con 13 sucursales, 40 usuarios en la nube y expansión en Tabasco, Oaxaca, Mérida y el sureste mexicano.
                               </p>
                               <div className="solu_title">
                                 <div>
-                                  <b>Sentir del cliente</b>
+                                  <b>Testimonio</b>
                                 </div>
                               </div>
                               <div className="solu_description">
                                 <p>
-                                  Prediction SOFTware MR es una herramienta
-                                  superpotente, rápido interactuando con apps de
-                                  ventas en el cual los vendedores realizan
-                                  cotizaciones, checan precios, y la movilidad
-                                  en todo momento hacen de la fuerza de ventas
-                                  sólida y respuesta rápida a nuestros clientes.
-                                  Por el lado gerencial la conexión del sistema
-                                  para conectar con herramientas de Bussines
-                                  Intelligence y análisis de resultados ventas,
-                                  utilidades, etc.
+                                  Prediction SOFTware MR: Herramienta potente para vendedores con interacción rápida en apps de ventas. Facilita cotizaciones, verifica precios y movilidad constante. Conecta con Business Intelligence para análisis de resultados en ventas y utilidades.
                                 </p>
                               </div>
                               <center>
@@ -258,32 +242,16 @@ function Card() {
                             </div>
                             <div className="solu_description">
                               <p>
-                                Empresa Líder en distribución de las mejores
-                                marcas en rines, llantas con más de 20 años de
-                                operación continúa brindando el mejor servicio
-                                para sus clientes con 5 puntos de venta y
-                                servicio en Tuxtla Gutiérrez, Independencia,
-                                Jaltenango, Pujiltic, Villaflores, Chiapas.
+                                Empresa líder en distribución de rines y llantas con 20+ años de operación. Ofrecemos el mejor servicio a través de 5 puntos de venta en Tuxtla Gutiérrez, Independencia, Jaltenango, Pujiltic y Villaflores, Chiapas.
                               </p>
                               <div className="solu_title">
                                 <div>
-                                  <b>Sentir del cliente</b>
+                                  <b>Testimonio</b>
                                 </div>
                               </div>
                               <div className="solu_description">
-                                <p>
-                                  Prediction SOFTware MR ha ido desde nuestros
-                                  inicios con la operación de la mano y es el
-                                  motor que nos impulsa en las ventas, a tomar
-                                  decisiones y el control estricto de nuestro
-                                  almacén la cual es una herramienta escalable y
-                                  libre de errores que nos permite el día a día
-                                  nuestra operación de ventas y control sea
-                                  transparente y sin contratiempos. Tenemos
-                                  continuidad 24/7/365 gracias a estar alojado
-                                  en la nube y el soporte en todo momento por
-                                  los consultores es muy bueno. Desde el 2009
-                                  operando el sistema ERP a la fecha.
+                                <p>                 
+                                  Prediction SOFTware MR, nuestro motor desde el inicio, impulsa ventas y asegura un control eficiente del almacén. Escalable y sin errores, garantiza una operación transparente. Con continuidad 24/7/365 en la nube y soporte constante desde 2009 con el sistema ERP.
                                 </p>
                               </div>
                               <center>
@@ -426,18 +394,12 @@ function Card() {
                               </p>
                               <div className="solu_title">
                                 <div>
-                                  <b>Sentir del cliente</b>
+                                  <b>Testimonio</b>
                                 </div>
                               </div>
                               <div className="solu_description">
                                 <p>
-                                  Un software con muchas bondades, intuitivos,
-                                  no falla, no pierde datos, es transaccional y
-                                  manejar millones de registros en sus bases de
-                                  datos. Nuestro día a día en nuestra operación
-                                  es constante libre de contratiempos gracias a
-                                  este ERP estamos super contentos y llevamos
-                                  desde el 2012 operando el sistema.
+                                  Un software intuitivo, confiable y transaccional. No falla, no pierde datos y maneja millones de registros en sus bases de datos. Nuestra operación diaria es constante y libre de contratiempos gracias a este ERP. Estamos satisfechos operándolo desde 2012.
                                 </p>
                               </div>
                               <center>
@@ -563,25 +525,12 @@ function Card() {
                               </p>
                               <div className="solu_title">
                                 <div>
-                                  <b>Sentir del cliente</b>
+                                  <b>Testimonio</b>
                                 </div>
                               </div>
                               <div className="solu_description">
                                 <p>
-                                  Prediction SOFTware MR es un software
-                                  escalable con un ERP desde 2013,
-                                  experimentando cambios continuos pero sin
-                                  parches, garantizando funcionalidad al 100%.
-                                  Destaca por su agilidad, velocidad y un
-                                  servicio de consultoría excepcional
-                                  proporcionado por KranzWide Consultive SA de
-                                  CV. El sistema ofrece respaldo automático sin
-                                  intervención del usuario, brindando
-                                  tranquilidad al saber que la información se
-                                  respalda en paralelo en otro lugar del mundo.
-                                  La conectividad desde diversos dispositivos es
-                                  ininterrumpida, gracias a la estabilidad de la
-                                  nube.
+                                  Prediction SOFTware MR: ERP escalable desde 2013, funcional al 100%. Ágil, rápido y con excelente servicio de KranzWide Consultive. Ofrece respaldo automático y conectividad estable desde diversos dispositivos en la nube.
                                 </p>
                               </div>
                               <center>
@@ -710,41 +659,16 @@ function Card() {
                             </div>
                             <div className="solu_description">
                               <p>
-                                Prediction SOFTware MR es nuestro software en el
-                                cual el proveedor nos desarrolló nuestro módulo
-                                de Agenda Operativa para levar el control de
-                                citas de nuestros pacientes y cabinas todo de
-                                forma automatizada un proceso bastante complejo
-                                y peculiar de nuestra operación, integrando un
-                                poderoso Robot de WhatsApp para la interacción
-                                con nuestros pacientes recordatorios de agenda,
-                                de cambios en citas, etc. + la app Galia en
-                                ambiente Android en el cual nuestros pacientes
-                                hacen reservas de citas para la clínica una vez
-                                que el robot mediante WhatsApp les indica que
-                                pueden agendar nuevo bloque de citas.
+                                Prediction SOFTware MR: Incluye módulo de Agenda Operativa y potente Robot de WhatsApp para automatizar control de citas. App Galia en Android permite a pacientes reservar citas tras indicaciones del robot.
                               </p>
                               <div className="solu_title">
                                 <div>
-                                  <b>Sentir del cliente</b>
+                                  <b>Testimonio</b>
                                 </div>
                               </div>
                               <div className="solu_description">
-                                <p>
-                                  Prediction SOFTware MR es nuestro software en
-                                  el cual el proveedor nos desarrolló nuestro
-                                  módulo de Agenda Operativa para levar el
-                                  control de citas de nuestros pacientes y
-                                  cabinas todo de forma automatizada un proceso
-                                  bastante complejo y peculiar de nuestra
-                                  operación, integrando un poderoso Robot de
-                                  WhatsApp para la interacción con nuestros
-                                  pacientes recordatorios de agenda, de cambios
-                                  en citas, etc. + la app Galia en ambiente
-                                  Android en el cual nuestros pacientes hacen
-                                  reservas de citas para la clínica una vez que
-                                  el robot mediante WhatsApp les indica que
-                                  pueden agendar nuevo bloque de citas.
+                                <p>                   
+                                  Prediction SOFTware MR: Módulo de Agenda Operativa automatiza control de citas y cabinas, con potente Robot de WhatsApp. App Galia en Android permite a pacientes reservar citas siguiendo indicaciones del robot.
                                 </p>
                               </div>
                               <center>

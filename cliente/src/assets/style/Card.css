@@ -259,35 +259,44 @@
 }
 
 /* Cuando la pantalla tiene 600px o menos (móvil) */
-@media (max-width: 37.5rem) {
+@media (min-width: 20rem) and (max-width: 36rem) {
   .solution_card .solu_title div {
     font-size: 1rem; /* Tamaño de fuente para pantallas pequeñas */
   }
 
   .solution_card .solu_description p {
-    font-size: 0.75em; /* Tamaño de fuente para pantallas pequeñas */
+    font-size: 1em; /* Tamaño de fuente para pantallas pequeñas */
   }
 }
 
 /* Cuando la pantalla tiene entre 600px y 900px (tablet) */
-@media (min-width: 35rem) and (max-width: 61.8rem) {
+@media (min-width: 36.0001rem) and (max-width: 52.8rem) {
   .solution_card .solu_title div {
-    font-size: 0.8em; /* Tamaño de fuente para tablet */
+    font-size: 1em; /* Tamaño de fuente para tablet */
   }
 
   .solution_card .solu_description p {
-    font-size: 0.65rem; /* Tamaño de fuente para tablet */
+    font-size: 0.9rem; /* Tamaño de fuente para tablet */
   }
 }
 
 /* Cuando la pantalla tiene más de 900px (desktop) */
-@media (min-width: 56.2512rem) and (max-width: 77.25rem){
+@media (min-width: 52.81rem) and (max-width: 75rem){
   .solution_card .solu_title div {
     font-size: 1em; /* Tamaño de fuente para desktop */
   }
 
   .solution_card .solu_description p {
-    font-size: 0.8em; /* Tamaño de fuente para desktop */
+    font-size: 1.15rem; /* Tamaño de fuente para desktop */
   }
 }
 
+@media (min-width: 75.1rem) and (max-width: 89rem){
+  .solution_card .solu_title div {
+    font-size: 1.1em; /* Tamaño de fuente para desktop */
+  }
+
+  .solution_card .solu_description p {
+    font-size: 1.14rem; /* Tamaño de fuente para desktop */
+  }
+}
