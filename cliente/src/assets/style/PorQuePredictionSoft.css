@@ -5,22 +5,22 @@
 }
 
 /* Cuando la pantalla tiene 600px o menos (móvil) */
-@media (max-width: 37.5rem) {
+@media (min-width: 20rem) and (max-width: 37.5rem) {
     .card__title, .card__description {
-        font-size: 0.8em; /* Tamaño de fuente para pantallas pequeñas */
+        font-size: 0.92em; /* Tamaño de fuente para pantallas pequeñas */
     }
 }
 
 /* Cuando la pantalla tiene entre 600px y 900px (tablet) */
 @media (min-width: 37.5rem) and (max-width: 56.25rem) {
     .card__title, .card__description {
-        font-size: 1em; /* Tamaño de fuente para tablet */
+        font-size: 1.1em; /* Tamaño de fuente para tablet */
     }
 }
 
 /* Cuando la pantalla tiene más de 900px (desktop) */
-@media (min-width: 56.25rem) {
+@media (min-width: 56.3125rem) and (max-width: 90rem) {
     .card__title, .card__description {
-        font-size: 1.1em; /* Tamaño de fuente para desktop */
+        font-size: 1.0em; /* Tamaño de fuente para desktop */
     }
 }

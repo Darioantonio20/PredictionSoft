@@ -69,7 +69,7 @@ function PorQuePrediction() {
         <div className="col-lg-4 col-md-6 col-sm-12 mb-3 mt-3 d-flex justify-content-center">
           <div className="card text-center">
             <div className="container">
-              <p className="card__title mb-5">RESPALDO EN LÍNEA</p>
+              <p className="card__title mb-3">RESPALDO EN LÍNEA</p>
               <p className="card__description">
                 Olvídate por hacer respaldos diarios/semanales/mensuales Prediction SOFTware MR respalda a una base de datos en paralelo a otra nube en tiempo real sin afectar tu performance de velocidad delegando como un proceso alterno ajeno al núcleo del sistema, puedes estar tranquilo el sistema lo hará por ti por cualquier contingencia tu información está en modo espejo.
               </p>
