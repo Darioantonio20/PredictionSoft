@@ -25,17 +25,12 @@ function Carousel() {
                         data-bs-slide-to="1"
                         aria-label="Slide 2"
                     ></button>
-                    <button
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"
-                    ></button>
+                   
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img
-                            src={ImgCarrousel1}
+                            src={ImgCarrousel2}
                             loading="lazy"
                             className="d-block w-100"
                             alt="..."
@@ -46,23 +41,12 @@ function Carousel() {
                     </div>
                     <div className="carousel-item">
                         <img
-                            src={ImgCarrousel2}
-                            loading="lazy"
-                            className="d-block w-100"
-                            alt="..."
-                        />
-                        <div className="carousel-caption d-none d-md-block"></div>
-                    </div>
-                    <div className="carousel-item">
-                        <img
                             src={ImgCarrousel3}
                             loading="lazy"
                             className="d-block w-100"
                             alt="..."
                         />
-                        <div className="carousel-caption d-none d-md-block">
-                            <h4>Contactanos</h4>
-                        </div>
+                        <div className="carousel-caption d-none d-md-block"></div>
                     </div>
                 </div>
                 <button
@@ -94,4 +78,4 @@ function Carousel() {
     );
 }
 
-export default Carousel;
+export default Carousel;
