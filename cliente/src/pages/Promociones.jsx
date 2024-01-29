@@ -1,19 +1,14 @@
-/**
- * The above code is a React component that renders a navigation bar with links to different sections
- * of a website.
- */
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Swal from 'sweetalert2';
-import "../../assets/style/NavBar.css";
-import LogoPredictionSoft from "../../assets/img/logoPredictionSoft.svg";
-import { Link } from 'react-router-dom';
+import LogoPredictionSoft from "../assets/img/logoPredictionSoft.svg";
+import ImgPlanAnual from "../../src/assets/img/planAnual.jpeg";
+import ImgPlanMensual from "../../src/assets/img/planMensual.jpeg";
+import Footer from "../components/atoms/Footer";
+import "../assets/style/NavBar.css";
 
-function NavBar() {
-    /**
-     * The handleClick function prevents the default behavior of an event and displays an info message
-     * using the Swal.fire method.
-     */
 
+function Promociones() {
 
     const handleClickProximamente = (e) => {
         e.preventDefault();
@@ -23,9 +18,8 @@ function NavBar() {
         });
     };
 
-    return (
+    return ( 
         <>
-            {/*The code you provided is a React component that renders a navigation bar.*/}
             <nav className="navbar navbar-expand-md navbar-light bg-light">
                 <div id="arriba" />
                 <div className="container-fluid">
@@ -41,26 +35,41 @@ function NavBar() {
                                 <Link to="/landingPage"><a className="nav-link" href="#">INICIO</a></Link>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href="#nosotros">NOSOTROS</a>
+                                <Link to="/landingPage"><a className="nav-link" href="#nosotros">NOSOTROS</a></Link>
                             </li>
                             <li className="nav-item mx-2">
                                 <a className="nav-link" onClick={handleClickProximamente}>MÓDULOS ERP</a>  {/*download="imgNosotros.jpg"*/}
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href="#cotizar">COTIZAR</a>
+                                <Link to="/landingPage"><a className="nav-link" href="#cotizar">COTIZAR</a></Link>
                             </li>
                             <li className="nav-item mx-2">
                                 <Link to="/promociones"><a className="nav-link">PROMOCIONES</a></Link>
                             </li>
                             <li className="nav-item mx-2">
-                                <a className="nav-link" href="#contacto">CONTACTO</a>
+                                <Link to="/landingPage"><a className="nav-link" href="#contacto">CONTACTO</a></Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <div className="container-fluid">
+                <div className="row justify-content-center">
+                    <div className="col-md-12 mt-5 mb-5 text-center">
+                        <img src={ImgPlanAnual} loading="lazy" className="img-fluid" alt="Imagen 1 Section 2" />
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid">
+                <div className="row justify-content-center">
+                    <div className="col-md-12 mt-5 mb-5 text-center">
+                        <img src={ImgPlanMensual} loading="lazy" className="img-fluid" alt="Imagen 1 Section 2" />
+                    </div>
+                </div>
+            </div>
+        <Footer/>
         </>
-    );
-};
+     );
+}
 
-export default NavBar;
+export default Promociones;
