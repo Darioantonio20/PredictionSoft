@@ -29,7 +29,7 @@ function NavBar() {
             <nav className="navbar navbar-expand-md navbar-light bg-light">
                 <div id="arriba" />
                 <div className="container-fluid">
-                    <Link to="/landingPage"><a className="navbar-brand" href="#">
+                    <Link to="/"><a className="navbar-brand" href="#">
                         <img src={LogoPredictionSoft} className="img-fluid" loading="lazy" alt="Img Prediction Soft" width={200} height={200} />
                     </a></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@ function NavBar() {
                     <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                         <ul className="nav nav-underline">
                             <li className="nav-item mx-2">
-                                <Link to="/landingPage"><a className="nav-link" href="#">INICIO</a></Link>
+                                <Link to="/"><a className="nav-link" href="#">INICIO</a></Link>
                             </li>
                             <li className="nav-item mx-2">
                                 <a className="nav-link" href="#nosotros">NOSOTROS</a>
